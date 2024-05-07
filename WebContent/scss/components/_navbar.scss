@@ -37,6 +37,21 @@
       }
     }
   }
+  .large-logo {
+    display: block; /* Show large logo by default */
+  }
+  .small-logo {
+    display: none; /* Hide small logo by default */
+  }
+}
+@media (max-width: 992px) {
+  .large-logo {
+      display: none; /* Hide large logo on smaller screens */
+  }
+
+  .small-logo {
+      display: block; /* Show small logo on smaller screens */
+  }
 }
 @media(min-width:992px) {
   #mainNav {

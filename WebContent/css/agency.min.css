@@ -158,7 +158,7 @@ img::-moz-selection {
 	color: #fe3636
 }
 
-@media ( min-width :992px) {
+@media ( min-width :300px) {
 	#mainNav {
 		padding-top: 25px;
 		padding-bottom: 25px;
@@ -185,7 +185,7 @@ img::-moz-selection {
 		padding: 12px 0
 	}
 	#mainNav .navbar-brand img {
-		max-width: 15%
+		max-width: 45%
 	}
 }
 
